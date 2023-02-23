@@ -40,7 +40,6 @@
 - Operations & Monitoring tool (Optional)
 
 
-<div align="center">
-<h2>Slide</h2>
+<h3>Slide Here</h3>
 <img src="./img/qr.png" width="100px">
-</div>
+<a href="https://docs.google.com/presentation/d/1w8ye1A74zOobaajLnbIIo6wXPiSZhoFXuTUQbptFxFc/edit?usp=sharing">Link here</a>
