@@ -39,6 +39,7 @@
 - Applications Development (Optional)
 - Operations & Monitoring tool (Optional)
 
-##  Slide show
+
+<h2>Slide</h2>
 
 <img src="./img/qr.png" width="100px">
