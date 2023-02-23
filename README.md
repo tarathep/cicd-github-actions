@@ -40,6 +40,7 @@
 - Operations & Monitoring tool (Optional)
 
 
+<div align="center">
 <h2>Slide</h2>
-
 <img src="./img/qr.png" width="100px">
+</div>
