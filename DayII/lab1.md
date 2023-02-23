@@ -17,10 +17,10 @@ In this lab we use sample application that is named <b>Tutorial API Backend</b> 
 ## Prerequisites
 
 - <b>Workspace that required Software and Tools</b> 
-    - Dotnet 6 you can download at official site: Download .NET 6.0 (Linux, macOS, and Windows) (microsoft.com) focus on SDK
+    - Dotnet 6 you can download at official site: [Download .NET 6.0 (Linux, macOS, and Windows) (microsoft.com)](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) focus on SDK
     - Git and GitHub Account
-    - Text Editor (Required Visual Studio Code, or Visual Studio) Visual Studio Code - Code Editing. Redefined
-    - AZ CLI (How to install the Azure CLI | Microsoft Learn)
+    - Text Editor (Required Visual Studio Code, or Visual Studio) [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+    - AZ CLI ([How to install the Azure CLI | Microsoft Learn](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli))
 - <b>Infrastructures or Resources on Azure</b>
     - Azure App service (Webapp support deploy code and dotnet6) 
     - Azure App service plan (Windows or Linux)
