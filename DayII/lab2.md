@@ -40,9 +40,10 @@ Open the Terminal to use this command to clone source repository from `github.co
 
 ```bash
 git clone https://github.com/tarathep/dotnet-tutorial-backend.git
+```
 
+```bash
 cd dotnet-tutorial-backend
-
 code .
 ```
 
@@ -54,7 +55,9 @@ Open another window Terminal and use this command to clone empty your repository
 
 ```bash
 git clone https://github.com/{username}/{username}-tutorial-backend.git
+```
 
+```bash
 cd {username}-tutorial-backend.git
 ```
 
@@ -68,7 +71,13 @@ and push to your GitHub repository.
 
 ```bash
 git add .
+```
+
+```bash
 git commit -m "init project"
+```
+
+```bash
 git push
 ```
 
