@@ -1,6 +1,6 @@
 # LAB 1 : Initialization Application
 
-<div align="center"><img src="../img/image-20221122-114328.png" width="100%"></div>
+<div align="center"><img src="../img/image-20221122-114328.png" width="70%"></div>
 
 Learn how application working and implementation concepts.
 - After completing this lab, you'll be able to:
@@ -175,7 +175,7 @@ You can see output to new directory named TestResults that contain files <i styl
 
 you can use tools dotnet for convert code coverage from coverage.cobertura.xml to HTML reports that easy to reviews. ([ReportGenerator](https://reportgenerator.io/))
 
-<div align="center"><img src="../img/image-20221121-104719.png" width="30%"></div>
+<div align="center"><img src="../img/image-20221121-104719.png" width="20%"></div>
 
 First steps install tool via dotnet with command
 
