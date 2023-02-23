@@ -5,6 +5,9 @@
 - copy HTML code from here and change your information into `index.html`
 - sending card URL by open pull request at `git/students.md` at `develop` branch (https://github.com/tarathep/git)
 
-<img src="./img/image-20230223-041326.png">
+<div align="center"><img src="../img/image-20230223-041326.png" width="200px">
+</div>
 
- https://tarathep.github.io
+<div align="center">https://username.github.io</div>
+
+ 
