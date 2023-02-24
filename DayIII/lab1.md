@@ -99,7 +99,7 @@ Review + create
 
 and then download Generate new key pair, you can see the file key.pem to use login and access to VM
 
-<div align="center"><img src="../img/image-20230207-083556.png" width="90%"></div>
+<div align="center"><img src="../img/image-20230207-083556.png" width="50%"></div>
 
 <div align="center"><img src="../img/image-20230207-083738.png" width="90%"></div>
 
@@ -175,7 +175,7 @@ Copy secret token
 export GITHUB_PACKAGE_URL=ghcr.io
 export GITHUB_PACKAGE_USERNAME=<githubusername>
 export GITHUB_PACKAGE_TOKEN=ghp_xxxxxxxxxxxxxxxxx
-export GITHUB_PACKAGE_IMAGE=ghcr.io/corp-ais/az-selfhost-runner:latest
+export GITHUB_PACKAGE_IMAGE=kietara/az-selfhost-runner:latest
 export GITHUB_RUNNER_REPO_URL=https://github.com/<username>/<name>-pipeline
 export GITHUB_RUNNER_ACCESS_TOKEN=ghp_xxxxxxxxxxxxxxxxx
 export GITHUB_RUNNER_NAME_PREFIX=tutorial-be-dev
@@ -191,6 +191,9 @@ Change Permission and Run Script
 
 ```bash
 chmod 777 setup-sefhost-1.1.2.sh
+```
+
+```bash
 sudo -E ./setup-sefhost-1.1.2.sh
 ```
 
