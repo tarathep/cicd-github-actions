@@ -1,6 +1,6 @@
 # LAB 1 : Initialization Application
 
-<div align="center"><img src="../img/image-20221122-114328.png" width="70%"></div>
+<div align="center"><img src="../img/image-20221122-114328.png" width="50%"></div>
 
 Learn how application working and implementation concepts.
 - After completing this lab, you'll be able to:
