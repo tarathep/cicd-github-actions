@@ -111,10 +111,36 @@ Check dotnet SDK 6 on your workspace
 dotnet --version
 ```
 
+If you have mulit versions you can list sdk with command
+
+```bash
+dotnet --list-sdks
+```
+
+Switch default version
+
+```bash
+dotnet new globaljson
+```
+
+and change version into `global.json` in root path
+
+```json
+{
+  "sdk": {
+    "version": "6.0.x.x"
+  }
+}
+```
+
+
 Restore dependencies and projects
 
 ```bash
 dotnet clean
+```
+
+```bash
 dotnet restore
 ```
 
@@ -122,6 +148,9 @@ And then try to run on localhost
 
 ```bash
 cd Tutorial.Api
+```
+
+```bash
 dotnet run
 ```
 
