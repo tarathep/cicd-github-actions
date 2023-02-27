@@ -45,6 +45,9 @@ you can open with command to open with Visual Studio Code by following command b
 
 ```bash
 cd dotnet-tutorial-backend
+```
+
+```bash
 code .
 ```
 
