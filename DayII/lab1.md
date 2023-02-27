@@ -156,6 +156,11 @@ cd Tutorial.Api
 ```bash
 dotnet run
 ```
+or with port (Support for mapping port)
+
+```bash
+dotnet run --urls "http://0.0.0.0:{port}"
+```
 
 <p style="color:red;"><i>PS. please check database CosmosDB that named mongo-{name}-az-<region>-sbx-001 to allow access public internet. (Specific IP address)</i></p>
 
