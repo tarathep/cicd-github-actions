@@ -25,6 +25,15 @@ and then `Create codespace`
 
 <div align="center"><img src="../img/a-4.png" width="90%"></div>
 
+6. 
+
+
+## Setting up a C# (.NET) project for GitHub Codespaces
+
+Prepare Dotnet and Azure CLI press `Ctrl` + `Shift` + `P`, then start typing <b>"dev container"</b>. Click `Codespaces: Configure Dev Container`.
+
+follwing Doc : https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-dotnet-project-for-codespaces#step-2-add-a-dev-container-configuration
+
 
 
 
