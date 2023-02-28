@@ -149,7 +149,7 @@ az login --tenant xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 Set subscription.
 
 ```bash
-az account set --subscription sub-POC-CDC-az-sb
+az account set --subscription sub-xxx-xxx-az-sb
 ```
 
 Check access resource.
