@@ -114,7 +114,7 @@ Check dotnet SDK 6 on your workspace
 dotnet --version
 ```
 
-If you have mulit versions you can list sdk with command
+If you have multiple versions you can list sdk with command
 
 ```bash
 dotnet --list-sdks

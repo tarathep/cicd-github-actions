@@ -43,6 +43,30 @@ Check dotnet SDK version
 dotnet --version
 ```
 
+If you have multiple versions you can list sdk with command
+
+```bash
+dotnet --list-sdks
+```
+
+Switch default version
+
+```bash
+dotnet new globaljson
+```
+
+and change version into `global.json` in root path
+
+```json
+{
+  "sdk": {
+    "version": "6.0.x.x"
+  }
+}
+```
+
+
+
 Focusing on project <b>Tutorial.Api</b> by make sure currently directory and run following command
 
 Clean package and cached
