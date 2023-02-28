@@ -233,10 +233,10 @@ dotnet tool install -g dotnet-reportgenerator-globaltool
 
 more: https://www.nuget.org/packages/ReportGenerator
 
-Run HTML Report
+Run HTML Report (for windows may be use `\` to path)
 
 ```bash
-reportgenerator -reports:"XUnit.Tests\TestResults\*\coverage.cobertura.xml" -targetdir:"./coveragereport" -reporttypes:Html
+reportgenerator -reports:"XUnit.Tests/TestResults/*/coverage.cobertura.xml" -targetdir:"./coveragereport" -reporttypes:Html
 ```
 
 <div align="center"><img src="../img/image-20221121-105056.png" width="90%"></div>
