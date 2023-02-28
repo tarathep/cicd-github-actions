@@ -245,7 +245,7 @@ Go back to workspace on local and add new job
     runs-on: ubuntu-latest
     environment:
       name: dev
-      url: https://github.com/corp-ais/<username>-tutorial-backend/security/code-scanning
+      url: https://github.com/<owner>/<username>-tutorial-backend/security/code-scanning
     permissions:
       actions: read
       contents: read
@@ -277,9 +277,9 @@ Go back to workspace on local and add new job
 
     # THIS IS INTERNAL ACITON ACCESS ONLY INTERNAL OGANIZAITON
     # - name: Quality Gate Check
-    #   uses: corp-ais/quality-gate-action@main
+    #   uses: <owner>/quality-gate-action@main
     #   with:
-    #     repository: corp-ais/xxx-xxxxxx
+    #     repository: <owner>/xxx-xxxxxx
     #     severity: high
     #   env:
     #     GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
@@ -395,9 +395,9 @@ jobs:
 
     # THIS IS INTERNAL ACITON ACCESS ONLY INTERNAL OGANIZAITON
     # - name: Quality Gate Check
-    #   uses: corp-ais/quality-gate-action@main
+    #   uses: <owner>/quality-gate-action@main
     #   with:
-    #     repository: corp-ais/<this-repos-name>
+    #     repository: <owner>/<this-repos-name>
     #     severity: high
     #   env:
     #     GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
@@ -415,7 +415,7 @@ jobs:
 Go back to workspace on local and add new job
 
 ```yaml
- repo-dispatch:
+  repo-dispatch:
     name: Repository Dispatch
     runs-on: ubuntu-latest
     needs: [unitest,analyze]
@@ -432,7 +432,7 @@ Go back to workspace on local and add new job
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.WORKFLOW_TOKEN }}
-        repository: corp-ais/<username>-pipeline
+        repository: <owner>/<username>-pipeline
         event-type: <username>-tutorial-be-cd-dev
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 ```
@@ -527,9 +527,9 @@ jobs:
 
     # THIS IS INTERNAL ACITON ACCESS ONLY INTERNAL OGANIZAITON
     # - name: Quality Gate Check
-    #   uses: corp-ais/quality-gate-action@main
+    #   uses: <owner>/quality-gate-action@main
     #   with:
-    #     repository: corp-ais/xxx-xxxxxx
+    #     repository: <owner>/xxx-xxxxxx
     #     severity: high
     #   env:
     #     GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
