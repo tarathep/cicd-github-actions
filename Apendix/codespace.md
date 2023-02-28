@@ -65,6 +65,11 @@ A message is displayed telling you that the dev container configuration file alr
 <div align="center"><img src="../img/a-12.png" width="90%"></div>
 
 
+9. Rebuild
+
+<div align="center"><img src="../img/a-13.jpeg" width="90%"></div>
+
+
 Done.
 
 Ref. : https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-dotnet-project-for-codespaces#step-2-add-a-dev-container-configuration
