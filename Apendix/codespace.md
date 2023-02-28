@@ -48,6 +48,11 @@ and then `Create codespace`
 
 6. A list of additional features is displayed. We'll install the .NET CLI, a command-line interface for developing, building, running, and publishing .NET applications. To install this tool, type dotnet, select Dotnet CLI and Azure CLI then click OK.
 
+    <b>Select Features</b>
+    - Azure CLI devcontainers
+    - Dotnet CLI devcontainers
+    - Docker (Docker-in-Docker) devcontainers
+
 <div align="center"><img src="../img/a-9.png" width="90%"></div>
 
 <div align="center"><img src="../img/a-10.png" width="90%"></div>
