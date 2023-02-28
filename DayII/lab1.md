@@ -193,6 +193,11 @@ for simple unit test you can see on this `PrimeServiceTests.cs` that easy to und
 
 that can run basic command to execute unit tests in below.
 
+back to root project to execute.
+
+```bash
+cd ..
+```
 ```bash
 dotnet test
 ```
