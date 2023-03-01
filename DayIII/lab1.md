@@ -182,7 +182,7 @@ export GITHUB_RUNNER_NAME_PREFIX=tutorial-be-dev
 export GITHUB_RUNNER_LABELS=vm-<name>SelfHost-az-asse-sbx-001,tutorial-be-dev
 export GITHUB_RUNNER_NAME_PREFIX=tutorial-be-dev
 export GITHUB_RUNNER_NUMBER=1
-export AZURERM_VM_ADMIN_USER=azureuser
+export AZURERM_VM_ADMIN_USER=azureadmin
 ```
 
 <div align="center"><img src="../img/image-20230207-094001.png" width="90%"></div>
